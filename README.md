@@ -8,6 +8,6 @@
 [Урок 7](https://vanyacor.github.io/lesson_7 "7 Урок")  
 [Урок 8](https://vanyacor.github.io/lesson_8 "8Урок")  
 [Урок 9](https://vanyacor.github.io/lesson_9 "9Урок")  
-[Урок 10](https://vanyacor.github.io/lesson_10"10рок")  
+[Урок 10](https://vanyacor.github.io/lesson_10 "10рок")  
 [Урок 12](https://vanyacor.github.io/lesson_12/ "Готова домашка")  
 
