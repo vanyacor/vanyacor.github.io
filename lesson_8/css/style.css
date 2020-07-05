@@ -1,0 +1,17 @@
+.box {
+    height: 50px;
+    border: 2px solid red;
+}
+
+h1 {
+    margin: 140px 0 110px 0;
+}
+
+img {
+    max-height: 140px;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 18px;
+}
