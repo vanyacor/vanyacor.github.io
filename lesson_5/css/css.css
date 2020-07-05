@@ -1,0 +1,66 @@
+body {
+    font-weight: 600;
+}
+
+
+.title {
+    font-size: 20px;
+    text-align: center;
+}
+.main {
+    font-size: 32px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.btnUp {
+    width: 60px;
+    height: 60px;
+    font-weight: 800;
+    font-size: 30px;
+    position: fixed;
+    z-index: 2;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #333;
+    background-color: white;
+    top: 90%;
+    left: 2%;
+}
+
+.aBtn {
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.abtns {
+    display: inline;
+}
+
+.wrapperABtns {
+    margin-left: -7px;
+    width: 550px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 2px #333;
+}
+
+.par {
+    padding: 0 130px 0 130px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
