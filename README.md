@@ -1,7 +1,13 @@
 # Іван Коберник
 Мої Дз
 
-[Урок 4](https://vanyacor.github.io/lesson_4/index.html "4 Урок")  
-[Урок 5](https://vanyacor.github.io/lesson_5/ "5 Урок")
-[Урок 12](https://vanyacor.github.io/lesson_12/ "Готова домашка")
+[Урок 4](https://vanyacor.github.io/lesson_4/ "4 Урок")  
+[Урок 5](https://vanyacor.github.io/lesson_5/ "5 Урок")  
+[Урок 6.1](https://vanyacor.github.io/lesson 6.1 "6.1 Урок")  
+[Урок 6.2](https://vanyacor.github.io/lesson 6.2 "6.2 Урок")  
+[Урок 7](https://vanyacor.github.io/lesson_7 "7 Урок")  
+[Урок 8](https://vanyacor.github.io/lesson_8 "8Урок")  
+[Урок 9](https://vanyacor.github.io/lesson_9 "9Урок")  
+[Урок 10](https://vanyacor.github.io/lesson_10"10рок")  
+[Урок 12](https://vanyacor.github.io/lesson_12/ "Готова домашка")  
 
