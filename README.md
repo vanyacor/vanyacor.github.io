@@ -15,6 +15,6 @@
 [Урок 15](https://vanyacor.github.io/lesson_15/ "Шрифти")  
 [Урок 16](https://vanyacor.github.io/lesson_16/ "Верх сайту")  
 [Урок 17](https://vanyacor.github.io/lesson_17/src/ "Псевдо елементи і класи")  
-[Урок 18](https://vanyacor.github.io/lesson_18/src/ "Адаптив")  
+[Урок 18](https://vanyacor.github.io/lesson_18/ "Адаптив")  
 
 
