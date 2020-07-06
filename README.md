@@ -14,6 +14,7 @@
 [Урок 14](https://vanyacor.github.io/lesson_14/ "Шапка")  
 [Урок 15](https://vanyacor.github.io/lesson_15/ "Шрифти")  
 [Урок 16](https://vanyacor.github.io/lesson_16/ "Верх сайту")  
+[Урок 17](https://vanyacor.github.io/lesson_17/ "Псевдо елементи і класи")  
 
 
 
