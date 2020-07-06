@@ -17,4 +17,5 @@
 [Урок 17](https://vanyacor.github.io/lesson_17/src/ "Псевдо елементи і класи")  
 [Урок 18](https://vanyacor.github.io/lesson_18/ "Адаптив")  
 [Урок 19](https://vanyacor.github.io/lesson_19/ "Слайдер")  
+[Урок 20](https://vanyacor.github.io/lesson_20/ "Слайдер на макеті")  
 
