@@ -11,7 +11,9 @@ $(document).ready(function(){
                   slidesToShow: 2,
                   prevArrow: '<button class="prev arrow"> </button>',
                   nextArrow: '<button class="next arrow"> </button>',
-                  slidesToScroll: 2
+                  slidesToScroll: 2,
+                  autoplay: true,
+                  autoplaySpeed: 4000
                 }
               },
               {
@@ -20,7 +22,9 @@ $(document).ready(function(){
                   slidesToShow: 1,
                   prevArrow: '<button class="prev arrow"> </button>',
                   nextArrow: '<button class="next arrow"> </button>',
-                  slidesToScroll: 1
+                  slidesToScroll: 1,
+                  autoplay: true,
+                  autoplaySpeed: 4000
                 }
               }
               // You can unslick at a given breakpoint now by adding:
