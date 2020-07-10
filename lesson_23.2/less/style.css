@@ -1,0 +1,56 @@
+a:focus,
+a:before,
+a:after,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrap {
+  text-align: center;
+  color: #0BBAF0;
+}
+.wrap h1 {
+  font-size: 36px;
+  font-weight: 800;
+}
+.wrap p {
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.container {
+  margin-top: 48px;
+}
+.panel {
+  width: 600px;
+}
+.panel-heading {
+  position: relative;
+  margin-top: 4px;
+  background-color: #0BBAF0;
+  padding: 15px 26px;
+}
+.panel-heading .collapses {
+  color: white;
+}
+.panel-collapse {
+  width: 100%;
+}
+.panel-body {
+  width: 98%;
+  margin: 0 auto;
+  padding: 0 25px 20px 25px;
+  border: 2px solid #DCDCDC;
+  border-radius: 0 0 5px 5px;
+}
