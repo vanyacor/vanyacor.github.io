@@ -32,6 +32,10 @@ a:focus,
 textarea:focus {
   outline: none;
 }
+textarea {
+  overflow: hidden;
+  resize: none;
+}
 .button {
   background-color: #fcb303;
   color: #ffffff;
