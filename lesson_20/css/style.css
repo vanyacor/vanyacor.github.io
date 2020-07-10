@@ -274,7 +274,7 @@ section {
     margin-top: 14rem;
   }
   .main-form {
-    margin-top: 2rem;
+    margin: 2rem auto 0 auto;
     text-align: center;
   }
 }
@@ -287,10 +287,8 @@ section {
     margin-top: 14rem;
   }
   .main-form {
-    margin-top: 2rem;
+    margin: 2rem auto 0 auto;
     padding: 4.5rem 5rem;
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 @media (max-width: 400px) {
@@ -298,11 +296,9 @@ section {
     font-size: 2.4rem;
   }
   .main-form {
-    width: 24rem;
-    margin-top: 2rem;
-    padding: 2rem 2rem;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 90%;
+    margin: 2rem auto 0 auto;
+    padding: 3rem 3rem;
   }
   .main-form-header {
     font-size: 1.6rem;
@@ -311,7 +307,7 @@ section {
     width: 70%;
   }
 }
-@media (max-width: 240px) {
+@media (max-width: 320px) {
   .header-btn {
     width: 20rem;
   }
@@ -325,13 +321,17 @@ section {
     width: 20rem;
   }
   .main-form {
-    width: 24rem;
+    width: 100%;
     margin-top: 2rem;
     padding: 2rem 2rem;
-    left: 50%;
-    transform: translateX(-50%);
   }
   .main-form-header {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+  }
+  .main-form label {
+    font-size: 1rem;
+  }
+  .main-form button {
+    font-size: 1.2rem;
   }
 }
