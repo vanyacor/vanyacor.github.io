@@ -20,4 +20,5 @@
 [Урок 20](https://vanyacor.github.io/lesson_20/ "Слайдер на макеті")  
 [Урок 22](https://vanyacor.github.io/lesson_22/ "Попап")  
 [Урок 23.1](https://vanyacor.github.io/lesson_23.1/ "Таби")  
+[Урок 23.2](https://vanyacor.github.io/lesson_23.2/ "Collapse")  
 
