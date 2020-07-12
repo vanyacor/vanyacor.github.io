@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    
+
+    <div class="  wrapper-form">
+            <div class="wow animate__animated animate__bounceInLeft" data-wow-delay=".1s">
+    
+                <!-- Nav tabs -->
+                <ul class="wow animate__animated animate__bounceIn nav nav-tabs" data-wow-delay=".6s" role="tablist">
+                  <li role="presentation" class="tab tab-active"><a href="#sign" aria-controls="sign" role="tab" data-toggle="tab">Вхід</a></li>
+                  <li role="presentation" class="tab"><a href="#reg" aria-controls="reg" role="tab" data-toggle="tab">Реєстрація</a></li></ul>
+              
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="sign">
+                       <form action="#">
+                           <input class="tab-pane-inp" type="text" placeholder="Name">
+                           <input class="tab-pane-inp" type="password" placeholder="Password">
+                           <a class="getpass" href="">Забули пароль?</a>
+                           <div class="check-box">
+                            <input type="checkbox" id="remembe-me">
+                            <label for="#remembe-me">Запам'ятати мене</label>
+                            
+                       </div>
+                       <div class="">
+                        <button class="btn-box ">
+                            <p>Увійти</p>
+                            <div class="btn-box-triang"></div>
+                        </button>
+                        
+                    </div>
+                            </form>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="reg">
+
+                  </div>
+                </div>
+              
+              </div>
+    </div>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>     
+   <script src="js/main.js"></script> 
+   <script src="js/wow.min.js"></script>
+   <script>
+   new WOW().init();
+   </script>
+</body>
+</html>
