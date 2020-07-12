@@ -250,7 +250,7 @@ section {
 .price-block {
   position: relative;
   padding: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   min-height: 66rem;
   background-color: #fff;
   box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
@@ -492,8 +492,20 @@ section {
     margin-top: 14rem;
   }
   .main-form {
+    width: 90%;
     margin: 2rem auto 0 auto;
     padding: 4.5rem 5rem;
+  }
+  .price-block {
+    min-height: 70rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .price-button {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   /* popup  */
   .popup label {
@@ -517,6 +529,11 @@ section {
   }
   .popup-form .button {
     font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) and (max-width: 460px) {
+  .price-block {
+    min-height: 70rem;
   }
 }
 @media (max-width: 400px) {
