@@ -21,4 +21,6 @@
 [Урок 22](https://vanyacor.github.io/lesson_22/ "Попап")  
 [Урок 23.1](https://vanyacor.github.io/lesson_23.1/ "Таби")  
 [Урок 23.2](https://vanyacor.github.io/lesson_23.2/ "Collapse")  
+[Урок 24](https://vanyacor.github.io/lesson_24/ "Collapse")  
+
 
