@@ -23,5 +23,6 @@
 [Урок 23.2](https://vanyacor.github.io/lesson_23.2/ "Collapse")  
 [Урок 24](https://vanyacor.github.io/lesson_24/ "Price")  
 [Урок 25](https://vanyacor.github.io/lesson_25/ "animate")  
+[Урок 26](https://vanyacor.github.io/lesson_26/ "buyer")  
 
 
