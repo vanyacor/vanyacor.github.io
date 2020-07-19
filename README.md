@@ -26,6 +26,7 @@
 [Урок 26](https://vanyacor.github.io/lesson_26/ "buyer")  
 [Урок 27](https://vanyacor.github.io/lesson_27/ "VIDE")  
 [Урок 28](https://vanyacor.github.io/lesson_28/ "end feedback")  
+[Урок 30](https://vanyacor.github.io/lesson_30/ "end feedback")  
 
 
 
