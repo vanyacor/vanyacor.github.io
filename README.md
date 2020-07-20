@@ -27,7 +27,8 @@
 [Урок 27](https://vanyacor.github.io/lesson_27/ "VIDE")  
 [Урок 28](https://vanyacor.github.io/lesson_28/ "end feedback")  
 [Урок 30](https://vanyacor.github.io/lesson_30/ "end feedback")  
-[Урок 32](https://vanyacor.github.io/lesson_30/ "end feedback")  
+[Урок 32](https://vanyacor.github.io/lesson_32/ "end feedback")  
+[Урок 34](https://vanyacor.github.io/lesson_34/ "end feedback")  
 
 
 
