@@ -31,6 +31,7 @@
 [Урок 34](https://vanyacor.github.io/lesson_34/ "end feedback")  
 [Урок 36](https://vanyacor.github.io/lesson_36/ "tour")  
 [Урок 38](https://vanyacor.github.io/lesson_38/ "footer")  
+[Урок 39](https://vanyacor.github.io/lesson_39/ "footer")  
 
 
 
