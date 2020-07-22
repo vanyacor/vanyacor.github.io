@@ -63,10 +63,10 @@
                             <h2 class="main-form-header">Для розрахунку точної вартості <br> замовте <strong>виїзд
                                     замірника</strong></h2>
                             <form class="form" action="#">
-                                <label for="#">Ваше ім'я</label>
-                                <input class="form-input" type="text">
-                                <label for="#">Номер телефону</label>
-                                <input class="form-input" type="text">
+                                <label for="main-1">Ваше ім'я</label>
+                                <input class="form-input" id="main-1" type="text">
+                                <label for="main-2">Номер телефону</label>
+                                <input class="form-input" id="main-2" type="text">
                                 <button class="form-btn button" type="submit">Залишіть заявку</button>
                                 <small>Подарунок в день звернення</small>
                             </form>
@@ -88,7 +88,7 @@
                 <div class="features-block">
                     <div class="features-img">
                         <picture>
-                            <source srcset="img/features/coin.svg" type="image/">
+                            <source srcset="img/features/coin.svg" type="image/svg+xml">
                             <img src="img/features/coin.png" alt="Платіть по факту">
                         </picture>
                     </div>
@@ -99,7 +99,7 @@
                 <div class="features-block">
                     <div class="features-img">
                         <picture>
-                            <source srcset="img/features/folder.svg" type="image/">
+                            <source srcset="img/features/folder.svg" type="image/svg+xml">
                             <img src="img/features/folder.png" alt="Уладаємо договір">
                         </picture>
                     </div>
@@ -110,7 +110,7 @@
                 <div class="features-block">
                     <div class="features-img">
                         <picture>
-                            <source srcset="img/features/clock.svg" type="image/">
+                            <source srcset="img/features/clock.svg" type="image/svg+xml">
                             <img src="img/features/clock.png" alt="Точно в строк">
                         </picture>
                     </div>
@@ -121,7 +121,7 @@
                 <div class="features-block">
                     <div class="features-img">
                         <picture>
-                            <source srcset="img/features/piggy.svg" type="image/">
+                            <source srcset="img/features/piggy.svg" type="image/svg+xml">
                             <img src="img/features/piggy.png" alt="Економте на матеріалах">
                         </picture>
                     </div>
@@ -331,12 +331,12 @@
                         <form class="form" action="#">
                             <div class="row">
                                 <div class="col-lg-5 offset-lg-1 col-xl-5 offset-xl-1">
-                                    <label class="form-label" for="#">Ваше ім'я</label>
-                                    <input class="form-input" type="text">
+                                    <label class="form-label" for="feedback-1">Ваше ім'я</label>
+                                    <input class="form-input" id="feedback-1" type="text">
                                 </div>
                                 <div class="col-lg-5 col-xl-5">
-                                    <label class="form-label" for="#">Номер телефону</label>
-                                    <input class="form-input" type="text">
+                                    <label class="form-label" for="feedback-2">Номер телефону</label>
+                                    <input class="form-input" id="feedback-2" type="text">
                                 </div>
                             </div>
                             <button class="form-btn button" type="submit">Залишіть заявку</button>
@@ -419,7 +419,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>1.</p>
+                                    <span class="cirlce-value">1.</span>
                                 </span>
                             </span>
                         </div>
@@ -434,7 +434,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>2.</p>
+                                    <span class="cirlce-value">2.</span>
                                 </span>
                             </span>
                         </div>
@@ -448,7 +448,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>3.</p>
+                                    <span class="cirlce-value">3.</span>
                                 </span>
                             </span>
                         </div>
@@ -463,7 +463,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>4.</p>
+                                    <span class="cirlce-value">4.</span>
                                 </span>
                             </span>
                         </div>
@@ -477,7 +477,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>5.</p>
+                                    <span class="cirlce-value">5.</span>
                                 </span>
                             </span>
                         </div>
@@ -491,7 +491,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>6.</p>
+                                    <span class="cirlce-value">6.</span>
                                 </span>
                             </span>
                         </div>
@@ -505,7 +505,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>7.</p>
+                                    <span class="cirlce-value">7.</span>
                                 </span>
                             </span>
                         </div>
@@ -519,7 +519,7 @@
                         <div class="media-left">
                             <span class="circle-border">
                                 <span class="circle">
-                                    <p>8.</p>
+                                    <span class="cirlce-value">8.</span>
                                 </span>
                             </span>
                         </div>
@@ -580,7 +580,7 @@
                     <div class="features-block">
                         <div class="materials-img">
                             <picture>
-                                <source srcset="img/features/coin.svg" type="image/">
+                                <source srcset="img/features/coin.svg" type="image/svg+xml">
                                 <img src="img/material/knauf.png" alt="Платіть по факту">
                             </picture>
                         </div>
@@ -592,7 +592,7 @@
                     <div class="features-block">
                         <div class="materials-img">
                             <picture>
-                                <source srcset="img/features/folder.svg" type="image/">
+                                <source srcset="img/features/folder.svg" type="image/svg+xml">
                                 <img src="img/material/volma.png" alt="Уладаємо договір">
                             </picture>
                         </div>
@@ -605,7 +605,7 @@
                     <div class="features-block">
                         <div class="materials-img">
                             <picture>
-                                <source srcset="img/features/clock.svg" type="image/">
+                                <source srcset="img/features/clock.svg" type="image/svg+xml">
                                 <img src="img//material/forman.png" alt="Точно в строк">
                             </picture>
                         </div>
@@ -618,7 +618,7 @@
                     <div class="features-block">
                         <div class="materials-img">
                             <picture>
-                                <source srcset="img/features/piggy.svg" type="image/">
+                                <source srcset="img/features/piggy.svg" type="image/svg+xml">
                                 <img src="img/material/ceresit.png" alt="Економте на матеріалах">
                             </picture>
                         </div>
@@ -641,7 +641,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="main-title">
-                            <h1>Подивіться<br> як ми працюємо</h1>
+                            <h2>Подивіться<br> як ми працюємо</h2>
                             <p class="main-subtitle tour-subtitle">Хочете переконатися в професіоналізмі наших
                                 співробітників?</p>
                             <p class="main-subtitle tour-subtitle">Ви можете зробити це, приїхавши на один з наших
@@ -656,10 +656,10 @@
                         <div class="main-form">
                             <h2 class="main-form-header">Залишіть контактні дані для зв'язку</h2>
                             <form class="form" action="#">
-                                <label for="#">Ваше ім'я</label>
-                                <input class="form-input" type="text">
-                                <label for="#">Номер телефону</label>
-                                <input class="form-input" type="text">
+                                <label for="tour-1">Ваше ім'я</label>
+                                <input class="form-input" id="tour-1" type="text">
+                                <label for="tour-2">Номер телефону</label>
+                                <input class="form-input" id="tour-2" type="text">
                                 <button class="form-btn button tour-btn" type="submit">Записатися на перегляд</button>
                                 <small>Підберемо найближчий до Вас об'єкт</small>
                             </form>
@@ -715,7 +715,7 @@
                         <div class="map">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2281.4633679100457!2d61.505879415362!3d55.12266684788131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c5f31d5482c817%3A0xec83044de395ba73!2z0JrQvtC_0LXQudGB0LrQvtC1INGILiwgMTIsINCn0LXQu9GP0LHQuNC90YHQuiwg0KfQtdC70Y_QsdC40L3RgdC60LDRjyDQvtCx0LsuLCDQoNC-0YHRltGPLCA0NTQwMTI!5e0!3m2!1suk!2sua!4v1595334978327!5m2!1suk!2sua"
-                                width="100%" height="185" frameborder="0" style="border:0;" allowfullscreen=""
+                                 allowfullscreen=""
                                 aria-hidden="false" tabindex="0"></iframe>
                         </div>
                         <p>Номер телефону: <br><strong> +7 495 771 05 08
@@ -729,14 +729,14 @@
                     <div class="main-form">
                         <h2 class="contacts-form-header">Залишіть контактні дані для зв'язку</h2>
                         <form class="form" action="#">
-                            <label for="#">Ваше ім'я</label>
-                            <input class="form-input" type="text">
-                            <label for="#">Номер телефону</label>
-                            <input class="form-input" type="text">
-                            <label for="#">Email</label>
-                            <input class="form-input" type="text">
-                            <label for="#">Номер телефону</label>
-                            <textarea class="form-textarea" rows="5"></textarea>
+                            <label for="contacts-1">Ваше ім'я</label>
+                            <input class="form-input" id="contacts-1" type="text">
+                            <label for="contacts-2">Номер телефону</label>
+                            <input class="form-input" id="contacts-2" type="text">
+                            <label for="contacts-3">Email</label>
+                            <input class="form-input" id="contacts-3" type="text">
+                            <label for="contacts-4">Номер телефону</label>
+                            <textarea class="form-textarea" id="contacts-4" rows="5"></textarea>
                             <button class="form-btn button" type="submit">Залишіть заявку</button>
                         </form>
                     </div>
@@ -775,17 +775,17 @@
     <div class="popup">
         <div class="popup-dialog">
             <div class="popup-content">
-                <button class="popup-close">&times</button>
+                <button class="popup-close">&times;</button>
                 <h4 class="popup-header">Зацікавило?</h4>
                 <p>Залишіть свої контактні дані <br>для зв'язку</p>
                 <div class="main-form popup-form">
                     <form class="form" action="#">
-                        <label for="#">Ваше ім'я</label>
-                        <input class="form-input" type="text">
-                        <label for="#">Номер телефону</label>
-                        <input class="form-input" type="text">
-                        <label for="#">Повідомлення</label>
-                        <textarea class="form-input" rows="5"></textarea>
+                        <label for="popup-1">Ваше ім'я</label>
+                        <input class="form-input" id="popup-1" type="text">
+                        <label for="popup-2">Номер телефону</label>
+                        <input class="form-input" id="popup-2" type="text">
+                        <label for="popup-3">Повідомлення</label>
+                        <textarea class="form-input" id="popup-3" rows="5"></textarea>
                         <button class="form-btn button" type="submit">Залишіть заявку</button>
                     </form>
                 </div>
