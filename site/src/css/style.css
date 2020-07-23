@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #ffffff url(../img/main-bg.png) center no-repeat;
+  background-size: cover;
+  font-family: 'PT Sans', sans-serif;
+}
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+}
+.navbar {
+  background-color: #000000;
+  padding: 0;
+}
+.navbar ul {
+  display: block;
+  list-style-type: none;
+  padding-left: 130px;
+  margin-bottom: 0;
+}
+.navbar-el + .navbar-el {
+  border-left: 2px solid white;
+}
+.navbar-el {
+  display: inline-block;
+  padding: 0 30px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.navbar-el a {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 19px;
+}
+.header {
+  background-color: #fff;
+  padding: 0;
+}
+.header .logo {
+  position: absolute;
+  top: 0;
+  padding: 28px 25px 12px 25px;
+  display: inline-block;
+  font-size: 53px;
+  background-color: #DA2020;
+  color: #ffffff;
+}
+.header-title {
+  margin-left: 148px;
+  margin-bottom: 0;
+  padding: 25px 0 15px 0;
+  display: inline-block;
+  font-size: 23px;
+}
+.header .header-link_block {
+  position: relative;
+  float: right;
+  display: block;
+}
+.header .header-link_block .block {
+  margin-top: -17px;
+}
+.header .header-link_block .wrap-slink {
+  position: relative;
+  display: inline-block;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.header .header-link_block .wrap-slink .slink {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: #B01111;
+}
+.header .header-link_block .wrap-slink .slink-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: bold;
+}
+.main-img {
+  opacity: 0;
+  height: 280px;
+}
+.avatar-block {
+  background-color: #fff;
+}
+.avatar-block .avatar {
+  position: absolute;
+  margin-top: -100px;
+  width: 170px;
+  height: 180px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px #CECECE;
+}
+.avatar-block .avatar-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 164px;
+  width: 154px;
+  background-color: #C8CCCF;
+}
+.avatar-block .avatar-wrap img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.avatar-block .wrap-name {
+  padding-left: 190px;
+}
+.avatar-block .wrap-name .name {
+  padding-top: 15px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.avatar-block .wrap-name .name-title {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.content {
+  padding: 20px 0;
+  background-color: #fff;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+.content .container h2 {
+  margin-bottom: 20px;
+}
+.content .container .main-text {
+  width: 90%;
+  margin-bottom: 10px;
+}
+.content-wrap_img + .content-wrap_img {
+  margin-left: 15px;
+}
+.content-wrap_img {
+  display: inline-block;
+}
+.content-wrap_img p {
+  padding-left: 4px;
+  font-size: 13px;
+}
+.footer {
+  background-color: #fff;
+  text-align: center;
+}
+.footer p {
+  font-size: 13px;
+  padding: 15px 0;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .navbar ul {
+    padding-left: 100px;
+  }
+  .content {
+    text-align: center;
+  }
+  .content .main-text {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .navbar ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .navbar-el {
+    padding: 10px 20px;
+  }
+  .header {
+    position: relative;
+  }
+  .header .logo {
+    position: absolute;
+    top: 0;
+    padding: 28px 25px 12px 25px;
+    display: inline-block;
+    font-size: 53px;
+    background-color: #DA2020;
+    color: #ffffff;
+  }
+  .content-wrap_img + .content-wrap_img {
+    margin-left: 0;
+  }
+}
+@media (max-width: 540px) {
+  .navbar-el + .navbar-el {
+    border-left: none;
+  }
+  .navbar-el {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 460px) {
+  .navbar-el {
+    padding: 10px 10px;
+  }
+  .navbar-el a {
+    font-size: 12px;
+  }
+  .avatar-block .avatar {
+    margin-top: -140px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .avatar-block .wrap-name {
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+}
