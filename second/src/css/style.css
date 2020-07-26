@@ -453,7 +453,38 @@ nav .navbar-nav .active {
             transform: none;
   }
 }
+@media (max-width: 440px) {
+  nav .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .navbar-nav {
+    padding: 0 30px;
+    text-align: center;
+  }
+  nav .navbar-nav li {
+    margin-bottom: 30px;
+  }
+  nav .navbar-nav a {
+    padding: 15px 30px;
+  }
+}
 @media (max-width: 400px) {
+  nav .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .navbar-nav {
+    padding: 0 20px;
+    text-align: center;
+  }
+  nav .navbar-nav a {
+    padding: 15px 30px;
+  }
   .third-section .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

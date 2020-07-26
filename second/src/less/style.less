@@ -441,6 +441,7 @@ nav {
 
             .join-our_mail {
                 text-align: center;
+
                 .btn {
                     width: 280px;
                     height: 40px;
@@ -502,7 +503,48 @@ nav {
     }
 }
 
+@media (max-width: 440px) {
+    nav {
+        .navbar {
+            flex-direction: column;
+
+            &-nav {
+                padding: 0 30px;
+                text-align: center;
+li {
+    margin-bottom: 30px;
+}
+                a {
+                    padding: 15px 30px;
+                }
+
+
+            }
+
+
+        }
+    }
+}
+
 @media (max-width: 400px) {
+    nav {
+        .navbar {
+            flex-direction: column;
+
+            &-nav {
+                padding: 0 20px;
+                text-align: center;
+
+                a {
+                    padding: 15px 30px;
+                }
+
+
+            }
+
+
+        }
+    }
     .third-section {
 
         .container {
@@ -524,9 +566,11 @@ nav {
 
             .join-our_mail {
                 text-align: center;
+
                 .input {
                     width: 90%;
                 }
+
                 .btn {
                     width: 90%;
                     height: 40px;

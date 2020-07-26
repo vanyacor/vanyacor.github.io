@@ -367,7 +367,32 @@ nav .navbar-nav .active {
     transform: none;
   }
 }
+@media (max-width: 440px) {
+  nav .navbar {
+    flex-direction: column;
+  }
+  nav .navbar-nav {
+    padding: 0 30px;
+    text-align: center;
+  }
+  nav .navbar-nav li {
+    margin-bottom: 30px;
+  }
+  nav .navbar-nav a {
+    padding: 15px 30px;
+  }
+}
 @media (max-width: 400px) {
+  nav .navbar {
+    flex-direction: column;
+  }
+  nav .navbar-nav {
+    padding: 0 20px;
+    text-align: center;
+  }
+  nav .navbar-nav a {
+    padding: 15px 30px;
+  }
   .third-section .container {
     flex-direction: column;
   }
